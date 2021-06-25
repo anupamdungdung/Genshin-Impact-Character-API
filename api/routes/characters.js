@@ -11,19 +11,20 @@ router.get('/', (req, res, next) => {
 
 router.get('/:charactername',(req,res,next)=>{
     const characterName=req.params.charactername;
-    for(const char in data){
-        if(data[char].name===characterName || characterName.toLowerCase()===data[char].slug){
-            console.log(data[char]);
-            res.json(data[char]);
-            characterName=null;
+    data.forEach((char)=>{
+        if(char.name==characterName || characterName.toLowerCase==char.slug){
+            res.send(JSON.stringify(char));
+            
         }
         else{
-            res.json({
-                error: "Query Not Found"
+            return res.status(404).json({
+                error:"Query not found!"
             })
         }
-    }
-})
+
+    });
+
+});
 
 
 module.exports = router;

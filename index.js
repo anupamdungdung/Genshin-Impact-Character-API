@@ -32,7 +32,7 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
    res.json({
        apiName:"Genshin Impact Characters API",
-       description:"Add /characters to get the data of all the characters. Add character name (/characters/characterName) to go to that specific character. While fetching use the specific index to fetch the data of the particualr character. (Note: Index starts from 0)",
+       description:"Add /characters to get the data of all the characters. While fetching use the specific index to fetch the data of the particualr character. (Note: Index starts from 0)",
        createdBy:"Anupam Dungdung",
        email:"anupam-d2@live.com"
    })
@@ -45,16 +45,16 @@ app.use('/characters', characterRoute);
 app.use((req, res, next) => {
     const error = new Error('Query Not Found');
     error.status = 404;
-    next(error);
-    // res.sendStatus(404).json({
-    //     'error': 'Invalid Query'
-    // })
+    // next(error);
+    res.sendStatus(404).json({
+        'error': 'Invalid Query'
+    })
 });
 
 //Error thrown from anywhere else
 app.use((error, req, res, next) => {
     res.sendStatus(error.status || 500);
-    res.json({
+    return res.json({
         error: {
             message: error.message
         }
