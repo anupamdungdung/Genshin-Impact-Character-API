@@ -12,8 +12,10 @@ router.get('/', (req, res, next) => {
 router.get('/:charactername',(req,res,next)=>{
     const characterName=req.params.charactername;
     for(const char in data){
-        if(data[char].name==characterName || characterName.toLowerCase()==data[char].slug){
+        if(data[char].name===characterName || characterName.toLowerCase()===data[char].slug){
+            console.log(data[char]);
             res.json(data[char]);
+            characterName=null;
         }
         else{
             res.json({

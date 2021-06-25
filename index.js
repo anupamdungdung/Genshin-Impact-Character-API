@@ -27,7 +27,7 @@ app.use((req, res, next) => {
 
 
 // Default Landing Page
-app.use(express.static(staticPath));
+// app.use(express.static(staticPath));
 
 app.get('/', (req, res) => {
    res.json({
