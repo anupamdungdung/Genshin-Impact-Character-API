@@ -10,7 +10,7 @@ const data = [
         "vision": "Geo",
         "weapon": "Sword",
         "obtain": "Wish",
-        "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/2/23/Character_Albedo_Portrait.png"
+        "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Albedo_Card.png"
     },
     {
         "id": 2,
@@ -107,7 +107,7 @@ const data = [
         "id": 9,
         "name": "Eula",
         "slug": "eula",
-        "description": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
+        "description": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company.",
         "gender": "Female",
         "birthday": "October 25th",
         "rarity": 5,
@@ -231,7 +231,7 @@ const data = [
         "vision": "Hydro",
         "weapon": "Catalyst",
         "obtain": "Wish",
-        "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/6/69/Character_Mona_Card.jpg/revision/latest?cb=20210323193416"
+        "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/6/69/Character_Mona_Card.jpg"
     },
     {
         "id": 19,
