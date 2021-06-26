@@ -3,7 +3,7 @@ const data = [
         "id": 1,
         "name": "Albedo",
         "slug": "albedo",
-        "description": "Albedo — an alchemist based in Mondstadt, in the service of the Knights of Favonius.",
+        "description": "An alchemist based in Mondstadt, in the service of the Knights of Favonius.",
         "gender": "Male",
         "birthday": "Septembertember 13th",
         "rarity": 5,
