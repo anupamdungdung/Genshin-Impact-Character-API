@@ -5,7 +5,7 @@ const data = [
         "slug": "albedo",
         "description": "An alchemist based in Mondstadt, in the service of the Knights of Favonius.",
         "gender": "Male",
-        "birthday": "Septembertember 13th",
+        "birthday": "September 13th",
         "rarity": 5,
         "vision": "Geo",
         "weapon": "Sword",
