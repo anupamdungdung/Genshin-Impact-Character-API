@@ -2,6 +2,7 @@ const data = [
     {
         "id": 1,
         "name": "Albedo",
+        "title":"Kreideprinz",
         "slug": "albedo",
         "description": "An alchemist based in Mondstadt, in the service of the Knights of Favonius.",
         "gender": "Male",
@@ -15,6 +16,7 @@ const data = [
     {
         "id": 2,
         "name": "Amber",
+        "title":"Gliding Champion",
         "slug": "amber",
         "description": "Always energetic and full of life, Ambers the best - albeit only - Outrider of the Knights of Favonius.",
         "gender": "Female",
@@ -28,6 +30,7 @@ const data = [
     {
         "id": 3,
         "name": "Barbara",
+        "title":"Shining Idol",
         "slug": "barbara",
         "description": "The Deaconess of the Favonius Church and a shining starlet adored by all. Although the concept of a starlet is rather novel in a city of bards, the people of Mondstadt love Barbara nonetheless.",
         "gender": "Female",
@@ -41,6 +44,7 @@ const data = [
     {
         "id": 4,
         "name": "Beidou",
+        "title":"Uncrowned Lord of the Ocean",
         "slug": "beidou",
         "description": "Beidou is the leader of the Crux an armed fleet based in Liyue Harbor. An armed fleet means exactly what it sounds like: a fleet of ships armed to the teeth.",
         "gender": "Female",
@@ -54,6 +58,7 @@ const data = [
     {
         "id": 5,
         "name": "Bennett",
+        "title":"Trial by Fire",
         "slug": "bennett",
         "description": "A righteous and good-natured adventurer from Mondstadt whos unfortunately extremely unlucky.",
         "gender": "Male",
@@ -67,6 +72,7 @@ const data = [
     {
         "id": 6,
         "name": "Chongyun",
+        "title":"Frozen Ardor",
         "slug": "chongyun",
         "description": "A young exortcist from a family of exorcists. He does everything he can to suppress his pure positive energy.",
         "gender": "Male",
@@ -80,6 +86,7 @@ const data = [
     {
         "id": 7,
         "name": "Diluc",
+        "title":"The Dark Side of Dawn",
         "slug": "diluc",
         "description": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
         "gender": "Male",
@@ -93,6 +100,7 @@ const data = [
     {
         "id": 8,
         "name": "Diona",
+        "title":"Kätzlein Cocktail",
         "slug": "diona",
         "description": "A young lady who has inherited trace amounts of non-human blood. She is the incredible popular bartender of the Cats Tail tavern.",
         "gender": "Female",
@@ -106,6 +114,7 @@ const data = [
     {
         "id": 9,
         "name": "Eula",
+        "title":"Dance of the Shimmering Wave",
         "slug": "eula",
         "description": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company.",
         "gender": "Female",
@@ -119,6 +128,7 @@ const data = [
     {
         "id": 10,
         "name": "Fischl",
+        "title":"Prinzessin der Verurteilung",
         "slug": "fischl",
         "description": "A mysterious girl who calls herself Prinzessia der Verurteilung and travels with a night raven named Oz.",
         "gender": "Female",
@@ -132,6 +142,7 @@ const data = [
     {
         "id": 11,
         "name": "Ganyu",
+        "title":"Plenilune Gaze",
         "slug": "ganyu",
         "description": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
         "gender": "Female",
@@ -145,6 +156,7 @@ const data = [
     {
         "id": 12,
         "name": "Hu Tao",
+        "title":"Fragrance in Thaw",
         "slug": "hu tao",
         "description": "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
         "gender": "Female",
@@ -158,6 +170,7 @@ const data = [
     {
         "id": 13,
         "name": "Jean",
+        "title":"Dandelion Knight",
         "slug": "jean",
         "description": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of the Knights of Favonius of Mondstadt.",
         "gender": "Female",
@@ -171,6 +184,7 @@ const data = [
     {
         "id": 14,
         "name": "Kaeya",
+        "title":"Frostwind Swordsman",
         "slug": "kaeya",
         "description": "A thinker in the Knights of Favonius with a somewhat exotic appearance.",
         "gender": "Male",
@@ -184,6 +198,7 @@ const data = [
     {
         "id": 15,
         "name": "Keqing",
+        "title":"Driving Thunder",
         "slug": "keqing",
         "description": "The Yuheng of the Liyue Qixing. Has much to say about Rex Lapis unilateral approach to policymaking in Liyue - but in truth, gods admire skeptics such as her quite a lot.",
         "gender": "Female",
@@ -197,6 +212,7 @@ const data = [
     {
         "id": 16,
         "name": "Klee",
+        "title":"Fleeing Sunlight",
         "slug": "klee",
         "description": "An explosives expert and a regular at the Knights of Favonius\r\n confinement room. Also known as Fleeing Sunlight.",
         "gender": "Female",
@@ -210,6 +226,7 @@ const data = [
     {
         "id": 17,
         "name": "Lisa",
+        "title":"Witch of Purple Rose",
         "slug": "lisa",
         "description": "The languid but knowledgeable Librarian of the Knights of Favonius who was deemed by Sumeru Academia to be their most distinguised graduate in the past two centuries.",
         "gender": "Female",
@@ -223,6 +240,7 @@ const data = [
     {
         "id": 18,
         "name": "Mona",
+        "title":"Astral Reflection",
         "slug": "mona",
         "description": "A mysterious young astrologer who proclaims herself to be Astrologist Mona Megistus,  and who possesses abilities to match the title.",
         "gender": "Female",
@@ -236,6 +254,7 @@ const data = [
     {
         "id": 19,
         "name": "Ningguang",
+        "title":"Eclipsing Star",
         "slug": "ningguang",
         "description": "The Tianquan of Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
         "gender": "Female",
@@ -249,6 +268,7 @@ const data = [
     {
         "id": 20,
         "name": "Noelle",
+        "title":"Chivalric Blossom",
         "slug": "noelle",
         "description": "A maid in the service of the Knights of Favonius that dreams of joining their ranks someday.",
         "gender": "Female",
@@ -262,6 +282,7 @@ const data = [
     {
         "id": 21,
         "name": "Qiqi",
+        "title":"Icy Resurrection",
         "slug": "qiqi",
         "description": "An apprentice and herb-picker Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
         "gender": "Female",
@@ -275,6 +296,7 @@ const data = [
     {
         "id": 22,
         "name": "Razor",
+        "title":"Wolf Boy",
         "slug": "razor",
         "description": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
         "gender": "Male",
@@ -288,6 +310,7 @@ const data = [
     {
         "id": 23,
         "name": "Rosaria",
+        "title":"Thorny Benevolence",
         "slug": "rosaria",
         "description": "A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone.",
         "gender": "Female",
@@ -301,6 +324,7 @@ const data = [
     {
         "id": 24,
         "name": "Sucrose",
+        "title":"Harmless Sweetie",
         "slug": "sucrose",
         "description": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
         "gender": "Male",
@@ -314,6 +338,7 @@ const data = [
     {
         "id": 25,
         "name": "Tartaglia",
+        "title":"Childe",
         "slug": "tartaglia",
         "description": "Cunning Snezhnayan whose unpredictable personality keeps people guessing his every move.",
         "gender": "Male",
@@ -327,6 +352,7 @@ const data = [
     {
         "id": 26,
         "name": "Traveler",
+        "title":"Outlander",
         "slug": "traveler",
         "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
         "gender": "Player's Choice",
@@ -340,6 +366,7 @@ const data = [
     {
         "id": 27,
         "name": "Venti",
+        "title":"Windborne Bard",
         "slug": "venti",
         "description": "One of the many bards of Mondstadt, who freely wanders the citys streets and alleys.",
         "gender": "Male",
@@ -353,6 +380,7 @@ const data = [
     {
         "id": 28,
         "name": "Xiangling",
+        "title":"Exquisite Delicacy",
         "slug": "xiangling",
         "description": "A renowned chef from Liyue. Shes extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
         "gender": "Female",
@@ -366,6 +394,7 @@ const data = [
     {
         "id": 29,
         "name": "Xiao",
+        "title":"Vigilant Yaksha",
         "slug": "xiao",
         "description": "A yaksha adeptus that defends Liyue. Also heralded as the Conqueror of Demons or Vigilant Yaksha.",
         "gender": "Male",
@@ -379,6 +408,7 @@ const data = [
     {
         "id": 30,
         "name": "Xingqiu",
+        "title":"Juvenile Galant",
         "slug": "xingqiu",
         "description": "A young man carrying a longSword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.",
         "gender": "Male",
@@ -392,6 +422,7 @@ const data = [
     {
         "id": 31,
         "name": "Xinyan",
+        "title":"Blazing Riff",
         "slug": "xinyan",
         "description": "Liyues sole Rock 'n' Roll musician. She rebels against ossified prejudices using her music and passionate singing.",
         "gender": "Female",
@@ -405,6 +436,7 @@ const data = [
     {
         "id": 32,
         "name": "Yanfei",
+        "title":"Wise Innocence",
         "slug": "yanfei",
         "description": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",
         "gender": "Female",
@@ -418,6 +450,7 @@ const data = [
     {
         "id": 33,
         "name": "Zhongli",
+        "title":"Vago Mundo",
         "slug": "zhongli",
         "description": "A mysterious guest invited by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
         "gender": "Male",
@@ -427,6 +460,20 @@ const data = [
         "weapon": "Polearm",
         "obtain": "Wish",
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/7/79/Character_Zhongli_Card.png"
+    },
+    {
+        "id": 34,
+        "name": "Kaedehara Kazuha",
+        "title":"Scarlet Leaves Pursue Wild Waves",
+        "slug": "keadeharaKazuha",
+        "description": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet.",
+        "gender": "Male",
+        "birthday": "October 29th",
+        "rarity": 5,
+        "vision": "Anemo",
+        "weapon": "Sword",
+        "obtain": "Wish",
+        "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Character_Kaedehara_Kazuha_Card.png"
     }
 ]
 
