@@ -183,6 +183,20 @@ const data = [
     },
     {
         "id": 14,
+        "name": "Kaedehara Kazuha",
+        "title":"Scarlet Leaves Pursue Wild Waves",
+        "slug": "keadeharaKazuha",
+        "description": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet.",
+        "gender": "Male",
+        "birthday": "October 29th",
+        "rarity": 5,
+        "vision": "Anemo",
+        "weapon": "Sword",
+        "obtain": "Wish",
+        "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Character_Kaedehara_Kazuha_Card.png"
+    },
+    {
+        "id": 15,
         "name": "Kaeya",
         "title":"Frostwind Swordsman",
         "slug": "kaeya",
@@ -196,7 +210,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/6/64/Character_Kaeya_Card.jpg"
     },
     {
-        "id": 15,
+        "id": 16,
         "name": "Keqing",
         "title":"Driving Thunder",
         "slug": "keqing",
@@ -210,7 +224,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Character_Keqing_Card.jpg"
     },
     {
-        "id": 16,
+        "id": 17,
         "name": "Klee",
         "title":"Fleeing Sunlight",
         "slug": "klee",
@@ -224,7 +238,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/7/78/Character_Klee_Card.jpg"
     },
     {
-        "id": 17,
+        "id": 18,
         "name": "Lisa",
         "title":"Witch of Purple Rose",
         "slug": "lisa",
@@ -238,7 +252,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Character_Lisa_Card.jpg"
     },
     {
-        "id": 18,
+        "id": 19,
         "name": "Mona",
         "title":"Astral Reflection",
         "slug": "mona",
@@ -252,7 +266,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/6/69/Character_Mona_Card.jpg"
     },
     {
-        "id": 19,
+        "id": 20,
         "name": "Ningguang",
         "title":"Eclipsing Star",
         "slug": "ningguang",
@@ -266,7 +280,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Character_Ningguang_Card.jpg"
     },
     {
-        "id": 20,
+        "id": 21,
         "name": "Noelle",
         "title":"Chivalric Blossom",
         "slug": "noelle",
@@ -280,7 +294,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/9/92/Character_Noelle_Card.jpg"
     },
     {
-        "id": 21,
+        "id": 22,
         "name": "Qiqi",
         "title":"Icy Resurrection",
         "slug": "qiqi",
@@ -294,7 +308,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Qiqi_Card.jpg"
     },
     {
-        "id": 22,
+        "id": 23,
         "name": "Razor",
         "title":"Wolf Boy",
         "slug": "razor",
@@ -308,7 +322,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/6/68/Character_Razor_Card.jpg"
     },
     {
-        "id": 23,
+        "id": 24,
         "name": "Rosaria",
         "title":"Thorny Benevolence",
         "slug": "rosaria",
@@ -322,7 +336,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/6/6d/Character_Rosaria_Card.png"
     },
     {
-        "id": 24,
+        "id": 25,
         "name": "Sucrose",
         "title":"Harmless Sweetie",
         "slug": "sucrose",
@@ -336,7 +350,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/2/22/Character_Sucrose_Card.jpg"
     },
     {
-        "id": 25,
+        "id": 26,
         "name": "Tartaglia",
         "title":"Childe",
         "slug": "tartaglia",
@@ -350,7 +364,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Tartaglia_Card.png"
     },
     {
-        "id": 26,
+        "id": 27,
         "name": "Traveler",
         "title":"Outlander",
         "slug": "traveler",
@@ -364,7 +378,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Traveler_Male_Card.jpg"
     },
     {
-        "id": 27,
+        "id": 28,
         "name": "Venti",
         "title":"Windborne Bard",
         "slug": "venti",
@@ -378,7 +392,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/7/76/Character_Venti_Card.jpg"
     },
     {
-        "id": 28,
+        "id": 29,
         "name": "Xiangling",
         "title":"Exquisite Delicacy",
         "slug": "xiangling",
@@ -392,7 +406,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Character_Xiangling_Card.jpg"
     },
     {
-        "id": 29,
+        "id": 30,
         "name": "Xiao",
         "title":"Vigilant Yaksha",
         "slug": "xiao",
@@ -406,7 +420,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/8/88/Character_Xiao_Card.jpg"
     },
     {
-        "id": 30,
+        "id": 31,
         "name": "Xingqiu",
         "title":"Juvenile Galant",
         "slug": "xingqiu",
@@ -420,7 +434,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Character_Xingqiu_Card.jpg"
     },   
     {
-        "id": 31,
+        "id": 32,
         "name": "Xinyan",
         "title":"Blazing Riff",
         "slug": "xinyan",
@@ -434,7 +448,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Character_Xinyan_Card.jpeg"
     },
     {
-        "id": 32,
+        "id": 33,
         "name": "Yanfei",
         "title":"Wise Innocence",
         "slug": "yanfei",
@@ -448,7 +462,7 @@ const data = [
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/f/f3/Character_Yanfei_Card.png"
     },
     {
-        "id": 33,
+        "id": 34,
         "name": "Zhongli",
         "title":"Vago Mundo",
         "slug": "zhongli",
@@ -460,21 +474,8 @@ const data = [
         "weapon": "Polearm",
         "obtain": "Wish",
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/7/79/Character_Zhongli_Card.png"
-    },
-    {
-        "id": 34,
-        "name": "Kaedehara Kazuha",
-        "title":"Scarlet Leaves Pursue Wild Waves",
-        "slug": "keadeharaKazuha",
-        "description": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet.",
-        "gender": "Male",
-        "birthday": "October 29th",
-        "rarity": 5,
-        "vision": "Anemo",
-        "weapon": "Sword",
-        "obtain": "Wish",
-        "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Character_Kaedehara_Kazuha_Card.png"
     }
+    
 ]
 
 module.exports = data;
