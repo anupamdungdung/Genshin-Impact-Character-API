@@ -242,7 +242,7 @@ const data = [
         "name": "Lisa",
         "title":"Witch of Purple Rose",
         "slug": "lisa",
-        "description": "The languid but knowledgeable Librarian of the Knights of Favonius who was deemed by Sumeru Academia to be their most distinguised graduate in the past two centuries.",
+        "description": "The languid but knowledgeable Librarian of the Knights of Favonius.",
         "gender": "Female",
         "birthday": "June 9th",
         "rarity": 4,
