@@ -185,7 +185,7 @@ const data = [
         "id": 14,
         "name": "Kaedehara Kazuha",
         "title":"Scarlet Leaves Pursue Wild Waves",
-        "slug": "keadeharaKazuha",
+        "slug": "keadeharakazuha",
         "description": "A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet.",
         "gender": "Male",
         "birthday": "October 29th",
@@ -474,7 +474,78 @@ const data = [
         "weapon": "Polearm",
         "obtain": "Wish",
         "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/7/79/Character_Zhongli_Card.png"
-    }
+    },
+    {
+        "id": 35,
+        "name": "Kamisato Ayaka",
+        "title":"Frostflake Heron",
+        "slug": "kamisatoayaka",
+        "description": "Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong.",
+        "gender": "Female",
+        "birthday": "September 28th",
+        "rarity": 5,
+        "vision": "Cryo",
+        "weapon": "Sword",
+        "obtain": "Wish",
+        "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/3/34/Character_Kamisato_Ayaka_Card.png"
+    },
+    {
+        "id": 36,
+        "name": "Sayu",
+        "title":"Mujina Ninja",
+        "slug": "sayu",
+        "description": "A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived.",
+        "gender": "Female",
+        "birthday": "October 19th",
+        "rarity": 4,
+        "vision": "Anemo",
+        "weapon": "Claymore",
+        "obtain": "Wish",
+        "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/8/83/Character_Sayu_Card.png"
+    },
+    {
+        "id": 37,
+        "name": "Yoimiya",
+        "title":"Frolicking Flames",
+        "slug": "yoimiya",
+        "description": "Owner of Naganohara Fireworks. Known as \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+        "gender": "Female",
+        "birthday": "June 21st",
+        "rarity": 5,
+        "vision": "Pyro",
+        "weapon": "Bow",
+        "obtain": "Wish",
+        "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Character_Yoimiya_Card.png"
+    },
+    {
+        "id": 38,
+        "name": "Kujou Sara",
+        "title":"Crowfeather Kaburaya",
+        "slug": "kujousara",
+        "description": "A general of the Tenryou Commission. Bold, decisive, and skilled in battle.",
+        "gender": "Female",
+        "birthday": "June 14th",
+        "rarity": 4,
+        "vision": "Electro",
+        "weapon": "Bow",
+        "obtain": "Wish",
+        "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/7/70/Character_Kujou_Sara_Card.jpg"
+    },
+    {
+        "id": 39,
+        "name": "Raiden Shogun",
+        "title":"Plane of Euthymia",
+        "slug": "raidenshogun",
+        "description": "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity",
+        "gender": "Female",
+        "birthday": "June 26th",
+        "rarity": 5,
+        "vision": "Electro",
+        "weapon": "Polearm",
+        "obtain": "Wish",
+        "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/9/97/Character_Raiden_Shogun_Card.png"
+    },
+    
     
 ]
 
