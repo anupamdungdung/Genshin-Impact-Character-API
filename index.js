@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const morgan = require('morgan');
 const path=require('path');
 //Character Route
 const characterRoute = require('./api/routes/characters');

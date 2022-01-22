@@ -543,7 +543,7 @@ const data = [
         "vision": "Electro",
         "weapon": "Polearm",
         "obtain": "Wish",
-        "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/9/97/Character_Raiden_Shogun_Card.png"
+        "imageUrl":"https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Character_Raiden_Shogun_Card.jpg"
     },
     
     
