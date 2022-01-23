@@ -1,15 +1,19 @@
-const express = require('express');
+import express from 'express'
+import bodyParser from "body-parser";
+import mongoose from "mongoose";
+import cors from "cors";
+import characterRoute from './routes/characters.js'
+const PORT = process.env.PORT || 8000;
+
+const CONNECTION_URL =
+  "mongodb+srv://anupamdungdung:gNAonICRkFn8HECb@cluster0.cprkq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+
 const app = express();
-const path=require('path');
-//Character Route
-const characterRoute = require('./api/routes/characters');
 
-// app.use(morgan('dev'));
-// app.set("view engine","pug");
-// app.set('views',path.join(__dirname+'/views'))
 
-const staticPath=path.join(__dirname+'./views/index.html');
-
+app.use(bodyParser.json({ limit: "30mb", extended: true }));
+app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
+app.use(cors());
 
 app.use((req, res, next) => {
     //Giving access to anyone requesting the API
@@ -60,8 +64,16 @@ app.use((error, req, res, next) => {
     })
 })
 
+// app.listen(PORT, () => {
+//     console.log(`Listening to Port ${PORT}`);
+// })
 
-
-app.listen(process.env.PORT || 5000, () => {
-    console.log("listening");
-})
+mongoose
+  .connect(CONNECTION_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() =>
+    app.listen(PORT, () => console.log(`Server running on port : ${PORT}`))
+  )
+  .catch((error) => console.log(error.message));

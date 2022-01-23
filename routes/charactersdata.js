@@ -1,4 +1,4 @@
-const data = [
+export const data = [
     {
         "id": 1,
         "name": "Albedo",
@@ -160,7 +160,7 @@ const data = [
         "slug": "hu tao",
         "description": "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
         "gender": "Female",
-        "birthday": "Julyy 15th",
+        "birthday": "July 15th",
         "rarity": 5,
         "vision": "Pyro",
         "weapon": "Polearm",
@@ -228,7 +228,7 @@ const data = [
         "name": "Klee",
         "title":"Fleeing Sunlight",
         "slug": "klee",
-        "description": "An explosives expert and a regular at the Knights of Favonius\r\n confinement room. Also known as Fleeing Sunlight.",
+        "description": "An explosives expert and a regular at the Knights of Favonius confinement room. Also known as Fleeing Sunlight.",
         "gender": "Female",
         "birthday": "July 27th",
         "rarity": 5,
@@ -341,7 +341,7 @@ const data = [
         "title":"Harmless Sweetie",
         "slug": "sucrose",
         "description": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
-        "gender": "Male",
+        "gender": "Female",
         "birthday": "May 11th",
         "rarity": 4,
         "vision": "Anemo",
@@ -356,7 +356,7 @@ const data = [
         "slug": "tartaglia",
         "description": "Cunning Snezhnayan whose unpredictable personality keeps people guessing his every move.",
         "gender": "Male",
-        "birthday": "Julyy 20th",
+        "birthday": "July 20th",
         "rarity": 5,
         "vision": "Hydro",
         "weapon": "Bow",
@@ -454,7 +454,7 @@ const data = [
         "slug": "yanfei",
         "description": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",
         "gender": "Female",
-        "birthday": "Julyy 28th",
+        "birthday": "July 28th",
         "rarity": 4,
         "vision": "Pyro",
         "weapon": "Catalyst",
@@ -536,7 +536,7 @@ const data = [
         "name": "Raiden Shogun",
         "title":"Plane of Euthymia",
         "slug": "raidenshogun",
-        "description": "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity",
+        "description": "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.",
         "gender": "Female",
         "birthday": "June 26th",
         "rarity": 5,
@@ -548,5 +548,3 @@ const data = [
     
     
 ]
-
-module.exports = data;
